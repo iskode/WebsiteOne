@@ -1,7 +1,12 @@
 require 'spec_helper'
 
-describe DeviseHelper do
 
+
+
+describe DeviseHelper do
+  before(:each) do
+
+  end
   describe 'devise_error_messages_flash' do
 
     it 'when no error' do
